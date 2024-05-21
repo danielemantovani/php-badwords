@@ -31,6 +31,7 @@ $word_censured = $_GET["censured"];
         ?>
         <!-- testo trasformato con parola inserita dall'utente censurata -->
         <h2>Testo con censura: <p><?php echo $censured_text; ?></p></h2>
+        <p>Lunghezza testo: <?php echo strlen($censured_text); ?> caratteri</p>
     </section>
 </body>
 </html>
