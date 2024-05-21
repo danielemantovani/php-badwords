@@ -20,6 +20,8 @@ $word_censured = $_GET["censured"];
     <section>
         <!-- stampo in pagina il testo inserito dal'utente -->
         <h2>Testo inserito: <p><?php echo $text; ?></p></h2>
+        <!-- lunghezza del testo inserito -->
+        <p>Lunghezza testo: <?php echo strlen($text); ?> caratteri</p>
     </section>
 
     <section>
